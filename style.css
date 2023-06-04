@@ -10,6 +10,9 @@ body {
 .mb2{
     background-color: white;
     padding: 0 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 .mb3{
     background-color: #e5e7eb;
@@ -80,8 +83,20 @@ button.signup {
     font-size: 16px;
     padding: 6px 24px;
 }
-
-
+.mb2 h1{
+    flex-grow: 1;
+}
+.illustration_images{
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    width: 800px;
+    justify-content: center;
+}
+.illustration_images figure{
+    object-fit: fill;
+    flex-grow: 1;
+}
 
 .copyright{
     text-align: center;
