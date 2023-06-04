@@ -9,10 +9,11 @@ body {
 }
 .mb2{
     background-color: white;
-    padding: 0 400px;
+    padding: 0px 400px;
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-top: 40px;
 }
 .mb3{
     background-color: #e5e7eb;
@@ -85,17 +86,22 @@ button.signup {
 }
 .mb2 h1{
     flex-grow: 1;
+    font-weight: bolder;    
+    font-size: 36px;
 }
 .illustration_images{
     display: flex;
     flex-direction: row;
-    height: 200px;
+    height: 400px;
     width: 800px;
     justify-content: center;
+    
 }
-.illustration_images figure{
-    object-fit: fill;
-    flex-grow: 1;
+.illustration_images img{
+    height: 168px;
+    width: 168px;
+    border: 3px solid #3882f6;
+    border-radius: 10%;
 }
 
 .copyright{
